@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+table {
+    padding: 0 3px;
+}
+table td {
+    width: 100%;
+    display: block;
+}
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+span {
+    color: #2FB3CD;
+}
+input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+input[type=submit] {
+    background-color: #0DBFDC;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 4px;
+    width: 100%;
+}
+textarea {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    min-height: 80px;
+    resize: vertical;
+}
+@media only screen and (min-width: 768px) {
+    table {
+        padding: 30px 80px 0 80px;
+    }
+    table td {
+        width: 50%;
+        display: inline-block;
+    }
+    textarea, input {
+        width: 80%;
+    }
+    input[type=submit] {
+        width: fit-content;
+    }
+}
+/* @media only screen and (max-width: 768px) {
+    table {
+        padding: 0 3px;
+    }
+    table td {
+        width: 100%;
+        display: block;
+    }
+    textarea, input {
+        width: 100%;
+    }
+    
+} */
