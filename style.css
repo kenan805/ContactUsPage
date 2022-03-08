@@ -53,16 +53,3 @@ textarea {
         width: fit-content;
     }
 }
-/* @media only screen and (max-width: 768px) {
-    table {
-        padding: 0 3px;
-    }
-    table td {
-        width: 100%;
-        display: block;
-    }
-    textarea, input {
-        width: 100%;
-    }
-    
-} */
