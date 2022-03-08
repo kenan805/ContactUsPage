@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact Us</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>     
 <body>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12147.880232685113!2d49.7984067!3d40.4316619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2e78584e2d13e3a!2sStep%20Academy!5e0!3m2!1saz!2s!4v1645903974693!5m2!1saz!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <h1 align="center">
@@ -13,60 +15,40 @@
     </h1>
     <hr color="#22DFF6" size="8" width="7%"/>
 
-    <table cellpadding="5" cellspacing="0">
-            <tr>
-                <th width="50%"></th>
-                <th align="left"><font face="Helvetica" size="4"><br/>Nice to hear You!</font></th>
-            </tr>
-            <tr>
-                <td></td>
-                <td><font face="Helvetica" size="2" color="silver"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus, distinctio, eum asperiores optio amet eos praesentium quae nostrum qui veniam.</b></font></td>
-            </tr>
-            <tr>
-                <td></td>
-                <th align="left"><font face="Helvetica" size="4"><br/>Contact Information</font></th>
-            </tr>
-            <tr>
-                <td></td>
-                <th align="left"><font face="Helvetica" size="2">Business Hours</font></th>
-            </tr>
-            <tr>
-                <td></td>
-                <td><font face="Helvetica" size="2" color="silver"><b>Our support service works for you from Monday to Friday from 8 am to 18 pm <br/>Wait for our reply within 24 hours <br/>Saturday and Sunday: closed</b></font></td>
-            </tr>
-            <tr>
-                <td></td>
-                <th align="left"><font face="Helvetica" size="2">Address</font></th>
-            </tr>
-            <tr>
-                <td></td>
-                <td><font face="Helvetica" size="2" color="silver"><b>Hotel Finder <br/>120 CA 15th Avenue-Suite 214. USA</b></font></td>
-            </tr>
-            <tr>
-                <td></td>
-                <th align="left"><font face="Helvetica" size="2">Phone number</font></th>
-            </tr>
-            <tr>
-                <td></td>
-                <td><font face="Helvetica" size="2" color="silver"><b>1-555-555-555</font></td>
-            </tr>
-            <tr>
-                <td></td>
-                <th align="left"><font face="Helvetica" size="2">Email</font></th>
-            </tr>
-            <tr>
-                <td></td>
-                <td><font face="Helvetica" size="2" color="silver"><b>support@bestwebsoft.zendesk.com</font></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <br/>
-                    <a target="_blank" href="https://www.facebook.com/ITSTEPAcademyBaku"><img height="30" src="Images/fb.png" alt="Facebook"/></a>
-                    <a target="_blank" href="https://mail.google.com/mail/u/0/"><img height="30" src="Images/googleplus.png" alt="Google plus"/></a>
-                    <a target="_blank" href="https://www.linkedin.com/school/step-it-academy-azerbaijan/"><img height="30" src="Images/linkedin.png" alt="Linkedin"/></a>
-                </td>
-            </tr>
-        </table>
+    <table cellpadding="10" cellspacing="0" width="100%">
+        <tr>
+            <td width="50%">
+                <form >
+                    <label for="name">Name <span>*</span></label>
+                    <input id="name" type="text" required="required" />
+                    <label for="email">E-mail <span>*</span></label>
+                    <input id="email" type="email" required="required" />
+                    <label for="tel">Phone number <span>*</span></label>
+                    <input id="tel" type="tel" required="required" />
+                    <label for="subject">Subject <span>*</span></label>
+                    <input id="subject" type="text" required="required" />
+                    <label for="message">Message <span>*</span></label>
+                    <textarea id="message" rows="5" required="required"></textarea>
+                    <input type="submit" value="SEND YOUR MESSAGE" />
+                </form>
+            </td>
+            <td width="50%">
+                <h3><font face="Helvetica">Nice to hear You!</font></h2>
+                <p><font face="Helvetica" color="silver" size="2"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus, distinctio, eum asperiores optio amet eos praesentium quae nostrum qui veniam.</b></font></p>
+                <h3><font face="Helvetica">Contact Information</font></h2>
+                <h5><font face="Helvetica">Business Hours</font></p>
+                <p><font face="Helvetica" size="2" color="silver"><b>Our support service works for you from Monday to Friday from 8 am to 18 pm <br/>Wait for our reply within 24 hours <br/>Saturday and Sunday: closed</b></font></p>
+                <h5><font face="Helvetica">Address</font></h5>
+                <p><font face="Helvetica" size="2" color="silver"><b>Hotel Finder <br/>120 CA 15th Avenue-Suite 214. USA</b></font></p>
+                <h5><font face="Helvetica">Phone number</font></h5>
+                <p><font face="Helvetica" size="2" color="silver"><b>1-555-555-555</font></p>
+                <h5><font face="Helvetica">Email</font></h5>
+                <p><font face="Helvetica" color="silver" size="2"><b>support@bestwebsoft.zendesk.com</font></p>
+                <a target="_blank" href="https://www.facebook.com/ITSTEPAcademyBaku"><img height="30" src="Images/fb.png" alt="Facebook"/></a>
+                <a target="_blank" href="https://mail.google.com/mail/u/0/"><img height="30" src="Images/googleplus.png" alt="Google plus"/></a>
+                <a target="_blank" href="https://www.linkedin.com/school/step-it-academy-azerbaijan/"><img height="30" src="Images/linkedin.png" alt="Linkedin"/></a>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
